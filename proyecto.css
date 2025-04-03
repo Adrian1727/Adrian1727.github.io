@@ -1,10 +1,8 @@
 :root{
-    --amarillo:#E6D67E;
-    --lila:#8886a7;
-    --morado:#877EE6;
-    --gris:#918F80;
-    --violeta:#4F4D66;
-    --marron:#3B3722;
+    --Gold:#D6AD60;
+    --Charcoal:#122620;
+    --Cream:#F4EBD0;
+    --Tan:#B68D40;
 }
 .tit{
     display: flex;
@@ -15,21 +13,21 @@
     font-family: 'Times New Roman', Times, serif;
     font-size:1.5cm;
     text-align: center;
-    color:var(--amarillo);
+    color:var(--gold);
     text-shadow: 1px  0px 0px black,
                  0px  1px 0px black,
                 -1px  0px 0px black,
                  0px -1px 0px black;
 }
 body{
-    background-color: var(--lila);
+    background-color: var(--Charcoal);
     margin:50px; 
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
 }
 #Slogan{
     text-align: center;
-    background-color:var(--morado);
+    background-color:var(--Cream);
 }
 .intro{
     background-color:rgb(189, 122, 172);
@@ -56,18 +54,18 @@ body{
     border-radius: 10px;
 }
 .cuadro {
-    background-color: rgb(200, 240, 253);
+    background-color:var(--Charcoal);
 }
 
 .EFECTO {
-    background-color: rgb(221, 201, 204);
+    background-color:var(--Charcoal);
 }
 
 .CONSECUENCIAS {
-    background-color: rgb(214, 175, 181);
+    background-color:var(--Charcoal);
 }
 .Elementos{
-    background-color:var(--gris);
+    background-color:var(--Cream);
     border: 5px;
     width: auto;
     height: 700px;
@@ -114,7 +112,7 @@ body{
     transform: translateZ(1000px);
 }
 #seccion2{
-    background-color: var(--violeta);
+    background-color: var(--Charcoal);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
@@ -128,7 +126,7 @@ body{
 }
 
 .fis{
-    background-color: var(--gris);
+    background-color: var(--Charcoal);
     width:auto;   
     height: 140px;
     margin: 50px;
@@ -144,7 +142,7 @@ body{
 
 }
 .fis2{
-    background-color: var(--gris);
+    background-color: var(--Charcoal);
     width:auto;   
     height: 160px;
     margin: 50px;
@@ -153,7 +151,7 @@ body{
     border: 2px solid black;
 }
 .relacion {
-    background-color: var(--lila);
+    background-color: var(--Gold);
     width:auto;   
     height: 200px;
     margin: 5px;
@@ -211,13 +209,13 @@ body{
     transform: translateZ(1000px);
 }
 .Ingles {
-    background-color: rgb(95, 240, 180);
+    background-color: var(--Charcoal);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
 }
 #seccion4{
-    background-color: var(--gris);
+    background-color: var(--Charcoal);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
@@ -226,7 +224,7 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     margin: 20px;
-    background-color: var(--gris);
+    background-color: var(--Charcoal);
     display: flex;
 }
 #calculator {
@@ -240,11 +238,11 @@ body{
     text-align: center;
 }
 #image {
-    width: 300px; /* Ajustar el tamaño según sea necesario */
+    width: 300px;
     height: auto;
 }
 .infoh{
-    background-color: var(--violeta);
+    background-color: var(--Cream);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
@@ -252,7 +250,7 @@ body{
 
 }
 .mat{
-    background-color: var(--amarillo);
+    background-color: var(--Gold);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
@@ -298,7 +296,7 @@ body{
 
 }
 .pregunta{
-    background-color: var(--amarillo);
+    background-color: var(--Gold);
     width:auto;   
     height: 250px;
     margin: 50px;
@@ -312,7 +310,7 @@ body{
     padding: 20px;
 }
 .pregun2{
-    background-color: var(--amarillo);
+    background-color: var(--Gold);
     flex: 1;
     margin-right: 20px;
     border: 2px solid black;
@@ -327,7 +325,7 @@ body{
     height: auto;
 }
 .pregunta3,.pregunta4,.pregunta5{
-    background-color: var(--amarillo);
+    background-color: var(--Gold);
     width:auto;   
     height: 150px;
     margin: 5px;
