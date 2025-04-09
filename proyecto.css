@@ -1,77 +1,89 @@
-:root{
-    --Gold:#D6AD60;
-    --Charcoal:#122620;
-    --Cream:#F4EBD0;
-    --Tan:#B68D40;
+:root {
+    --Gold: #D4AF37; /* Un dorado más sofisticado */
+    --Charcoal: #333333; /* Un gris oscuro, más suave y elegante */
+    --Ivory: #FFFFF0; /* Un blanco roto suave y elegante */
+    --Sapphire: #2F4F4F; /* Un tono azul verdoso oscuro */
+    --Silver: #C0C0C0; /* Un color plateado suave */
 }
 .tit{
-    display: flex;
     width: 100%;
     height: 120px;
+    padding: 20px;
+    display:flex;
 }
-#TituloP{
+#TituloP {
     font-family: 'Times New Roman', Times, serif;
-    font-size:1.5cm;
+    font-size: 2rem;
+    padding: 30px;
     text-align: center;
-    color:var(--gold);
-    text-shadow: 1px  0px 0px black,
-                 0px  1px 0px black,
-                -1px  0px 0px black,
-                 0px -1px 0px black;
-}
-body{
+    color: var(--Gold);
+    flex-grow: 0.5; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1); /* Sutil y elegante */
+}   
+body {
     background-color: var(--Charcoal);
-    margin:50px; 
+    color: var(--Ivory);
+    margin: 20px; 
+    font-family: 'Georgia', serif; /* Cambié la fuente para que sea más elegante */
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+}
+p{
+    color:var(--Ivory);
+    
+}
+li{
+    color: var(--Ivory);
 }
 #Slogan{
     text-align: center;
-    background-color:var(--Cream);
+    background-color:var(--Gold);
 }
 .intro{
-    background-color:rgb(189, 122, 172);
-    border: 5px;
+    margin: 10px;
     width: auto;
     height: 200px;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 20px; 
+    background-color: var(--Sapphire); /* Un fondo más elegante */
+    border: 2px solid var(--Silver); /* Bordes de color plateado para dar un toque refinado */
+    border-radius: 12px; /* Bordes más suaves */
+    padding: 20px;
 }
 .container {
+    margin: 10px;
     display: flex;
     justify-content:space-between;
-    width: 100%; 
+    width: 98%; 
     border: 2px solid black;
     border-radius: 10px;
+    background-color:var(--Gold); 
 }
 .cuadro, .EFECTO, .CONSECUENCIAS {
     flex-grow: 1; 
     height: 400px;
-    border: 2px solid black;
     margin: 10px;
-    padding: 20px; 
-    border-radius: 10px;
+    background-color: var(--Sapphire); /* Un fondo más elegante */
+    border-radius: 12px; /* Bordes más suaves */
+    padding: 20px;
 }
 .cuadro {
-    background-color:var(--Charcoal);
+    background-color:var(--Sapphire);
 }
 
 .EFECTO {
-    background-color:var(--Charcoal);
+    background-color:var(--Sapphire);
 }
 
 .CONSECUENCIAS {
-    background-color:var(--Charcoal);
+    background-color:var(--Sapphire);
 }
-.Elementos{
-    background-color:var(--Cream);
-    border: 5px;
+#seccion1{
+    margin: 10px;
     width: auto;
     height: 700px;
-    border-radius: 10px;
     border: 2px solid black;
-    padding: 20px; 
+    background-color: var(--Sapphire); /* Un fondo más elegante */
+    border-radius: 12px; /* Bordes más suaves */
+    padding: 20px;
 }
 
 .card-container {
@@ -112,21 +124,22 @@ body{
     transform: translateZ(1000px);
 }
 #seccion2{
-    background-color: var(--Charcoal);
+    background-color:var(--Sapphire);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
+    margin: 10px;
 }
 .fisica{
+
     width: 100%;
     height: 350px;
     border-radius: 10px;
     display: flex;
-    
 }
 
 .fis{
-    background-color: var(--Charcoal);
+    background-color: var(--Gold);
     width:auto;   
     height: 140px;
     margin: 50px;
@@ -142,9 +155,9 @@ body{
 
 }
 .fis2{
-    background-color: var(--Charcoal);
+    background-color: var(--Gold);
     width:auto;   
-    height: 160px;
+    height: 180px;
     margin: 50px;
     border-radius: 10px;
     padding: 20px; 
@@ -153,7 +166,7 @@ body{
 .relacion {
     background-color: var(--Gold);
     width:auto;   
-    height: 200px;
+    height: 220px;
     margin: 5px;
     border-radius: 10px;
     padding: 20px; 
@@ -209,22 +222,24 @@ body{
     transform: translateZ(1000px);
 }
 .Ingles {
-    background-color: var(--Charcoal);
+    background-color:var(--Sapphire);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
+    margin: 10px;
 }
 #seccion4{
-    background-color: var(--Charcoal);
+    background-color:var(--Sapphire);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
+    margin: 10px; 
 }
 .historia{
     justify-content: space-between;
     align-items: flex-start;
     margin: 20px;
-    background-color: var(--Charcoal);
+    background-color:var(--Sapphire);
     display: flex;
 }
 #calculator {
@@ -232,6 +247,7 @@ body{
     padding: 20px;
     border-radius: 10px;
     width: 40%;
+    background-color: var(--Gold);
 }
 #tree {
     width: 40%;
@@ -242,7 +258,7 @@ body{
     height: auto;
 }
 .infoh{
-    background-color: var(--Cream);
+    background-color: var(--Gold);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
@@ -250,20 +266,22 @@ body{
 
 }
 .mat{
-    background-color: var(--Gold);
+    margin: 10px;
+    background-color:var(--Sapphire);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
     display:block;
 }
 #seccion6{
-    background-color: rgb(221, 201, 204);
+    background-color:var(--Sapphire);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
+    margin: 10px; 
 }
 .in,.tesis,.conclusion{
-    background-color: rgb(214, 175, 181);
+    background-color: var(--Gold);
     width:auto;   
     height: 140px;
     margin: 5px;
@@ -272,7 +290,7 @@ body{
     border: 2px solid black;
 }
 .argumento{
-    background-color: rgb(214, 175, 181);
+    background-color:var(--Gold);
     width:auto;   
     height: 350px;
     margin: 5px;
@@ -281,11 +299,11 @@ body{
     border: 2px solid black;
 }
 #seccion7{
-    background-color: rgb(200, 240, 253);
+    background-color:var(--Sapphire);
     padding: 20px; 
     border: 2px solid black;
     border-radius: 10px;
-
+    margin: 10px; 
 }
 .biologia{
     width: 100%;
@@ -332,4 +350,54 @@ body{
     border-radius: 10px;
     padding: 20px;  
     border: 2px solid black;
+}
+#soporte{
+    background-color:var(--Sapphire);
+    padding: 20px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px; 
+}
+#soporte1{
+    display: flex;
+    justify-content:space-between;
+}
+.lg{
+    background-color: var(--Gold);
+    margin-right: 20px;
+    border: 2px solid black;
+    width:750px;   
+    height: 700px;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 20px; 
+}
+.Netlife{
+    background-color: var(--Gold);
+    margin-right: 20px;
+    border: 2px solid black;
+    width:750px;   
+    height: 740px;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 20px; 
+}
+.Vertmonde{
+    background-color: var(--Gold);
+    margin-right: 20px;
+    border: 2px solid black;
+    width:750px;   
+    height: 740px;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 20px; 
+}
+#foo1{
+    background-color: var(--Gold);
+    padding: 20px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px; 
+    text-align: center;
+    height: 80px;
 }
