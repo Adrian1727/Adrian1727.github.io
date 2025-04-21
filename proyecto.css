@@ -7,17 +7,17 @@
 }
 .tit{
     width: 100%;
-    height: 120px;
+    height: auto;
     padding: 20px;
     display:flex;
 }
 #TituloP {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     color: var(--Gold);
-    flex-grow: 0.5; 
+    flex-grow: 0.7; 
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1); /* Sutil y elegante */
 }   
 body {
@@ -26,7 +26,7 @@ body {
     margin: 20px; 
     font-family: 'Georgia', serif; /* Cambié la fuente para que sea más elegante */
     text-align: justify;
-    border: 2px solid black;
+    border: 2px solid black;    
 }
 p{
     color:var(--Ivory);
@@ -42,7 +42,7 @@ li{
 .intro{
     margin: 10px;
     width: auto;
-    height: 200px;
+    height: auto;
     background-color: var(--Sapphire); /* Un fondo más elegante */
     border: 2px solid var(--Silver); /* Bordes de color plateado para dar un toque refinado */
     border-radius: 12px; /* Bordes más suaves */
@@ -52,17 +52,18 @@ li{
     margin: 10px;
     display: flex;
     justify-content:space-between;
-    width: 98%; 
+    width: auto; 
+    height: auto;
     border: 2px solid black;
     border-radius: 10px;
     background-color:var(--Gold); 
 }
 .cuadro, .EFECTO, .CONSECUENCIAS {
     flex-grow: 1; 
-    height: 400px;
+    height: auto;
     margin: 10px;
     background-color: var(--Sapphire); /* Un fondo más elegante */
-    border-radius: 12px; /* Bordes más suaves */
+    border-radius: 10px; /* Bordes más suaves */
     padding: 20px;
 }
 .cuadro {
@@ -79,7 +80,7 @@ li{
 #seccion1{
     margin: 10px;
     width: auto;
-    height: 700px;
+    height: auto;
     border: 2px solid black;
     background-color: var(--Sapphire); /* Un fondo más elegante */
     border-radius: 12px; /* Bordes más suaves */
@@ -133,7 +134,7 @@ li{
 .fisica{
 
     width: 100%;
-    height: 350px;
+    height: auto;
     border-radius: 10px;
     display: flex;
 }
@@ -141,7 +142,7 @@ li{
 .fis{
     background-color: var(--Gold);
     width:auto;   
-    height: 140px;
+    height: auto;
     margin: 50px;
     border-radius: 10px;
     padding: 20px;  
@@ -149,7 +150,7 @@ li{
 }
 .fisica2{
     width: 100%;
-    height: 350px;
+    height: auto;
     border-radius: 10px;
     display: flex;
 
@@ -157,7 +158,7 @@ li{
 .fis2{
     background-color: var(--Gold);
     width:auto;   
-    height: 180px;
+    height: auto;
     margin: 50px;
     border-radius: 10px;
     padding: 20px; 
@@ -166,7 +167,7 @@ li{
 .relacion {
     background-color: var(--Gold);
     width:auto;   
-    height: 220px;
+    height: auto;
     margin: 5px;
     border-radius: 10px;
     padding: 20px; 
@@ -283,7 +284,7 @@ li{
 .in,.tesis,.conclusion{
     background-color: var(--Gold);
     width:auto;   
-    height: 140px;
+    height: auto;
     margin: 5px;
     border-radius: 10px;
     padding: 20px;  
@@ -292,11 +293,21 @@ li{
 .argumento{
     background-color:var(--Gold);
     width:auto;   
-    height: 350px;
+    height: auto;
     margin: 5px;
     border-radius: 10px;
     padding: 20px;  
     border: 2px solid black;
+}
+.complemento{
+    background-color:var(--Gold);
+    width:auto;   
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px;  
+    border: 2px solid black;
+
 }
 #seccion7{
     background-color:var(--Sapphire);
@@ -306,8 +317,8 @@ li{
     margin: 10px; 
 }
 .biologia{
-    width: 100%;
-    height: 350px;
+    width: 98%;
+    height: auto;
     border-radius: 10px;
     display: flex;
     
@@ -316,7 +327,7 @@ li{
 .pregunta{
     background-color: var(--Gold);
     width:auto;   
-    height: 250px;
+    height: auto;
     margin: 50px;
     border-radius: 10px;
     padding: 20px;  
@@ -333,7 +344,7 @@ li{
     margin-right: 20px;
     border: 2px solid black;
     width:auto;   
-    height: 250px;
+    height: auto;
     margin: 50px;
     border-radius: 10px;
     padding: 20px; 
@@ -345,7 +356,7 @@ li{
 .pregunta3,.pregunta4,.pregunta5{
     background-color: var(--Gold);
     width:auto;   
-    height: 150px;
+    height: auto;
     margin: 5px;
     border-radius: 10px;
     padding: 20px;  
@@ -361,37 +372,58 @@ li{
 #soporte1{
     display: flex;
     justify-content:space-between;
+    width: 98%;
+
 }
 .lg{
+    flex-grow: 1;
     background-color: var(--Gold);
     margin-right: 20px;
-    border: 2px solid black;
-    width:750px;   
-    height: 700px;
-    margin: 50px;
+    border: 2px solid black;   
+    height: auto;
+    margin: 10px;
     border-radius: 10px;
     padding: 20px; 
 }
 .Netlife{
+    flex-grow: 1;
     background-color: var(--Gold);
     margin-right: 20px;
-    border: 2px solid black;
-    width:750px;   
-    height: 740px;
-    margin: 50px;
+    border: 2px solid black;  
+    height: auto;
+    margin: 10px;
     border-radius: 10px;
     padding: 20px; 
 }
 .Vertmonde{
+    flex-grow: 1;
     background-color: var(--Gold);
     margin-right: 20px;
-    border: 2px solid black;
-    width:750px;   
-    height: 740px;
-    margin: 50px;
+    border: 2px solid black;  
+    height: auto;
+    margin: 10px;
     border-radius: 10px;
     padding: 20px; 
 }
+#reflexion{
+    background-color:var(--Sapphire);
+    padding: 20px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px; 
+
+}
+.refle{
+    background-color: var(--Gold);
+    margin-right: 20px;
+    border: 2px solid black;  
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px; 
+}
+
 #foo1{
     background-color: var(--Gold);
     padding: 20px; 
